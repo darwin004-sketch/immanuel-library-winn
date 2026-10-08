@@ -1,4 +1,10 @@
-<?php $currentPath = $_SERVER['SCRIPT_NAME']; ?>
+<?php
+$pageTitle = 'Manajemen Buku'; // Disesuaikan untuk tiap halaman sesuai tabel petunjuk
+$pageSubtitle = 'Kelola data buku perpustakaan';
+
+require_once '../../components/admin/sidebar.php';
+require_once '../../components/admin/topbar.php';
+?>
 <aside class="app-sidebar">
   <div class="brand">
     <span class="logo-badge">PD</span>
